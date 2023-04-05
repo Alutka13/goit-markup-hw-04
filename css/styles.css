@@ -417,14 +417,14 @@ background-color: var(--button-color);
 /* Costumers */
 
 .customers-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
-  margin-bottom: 72px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--main-color);
+margin-bottom: 72px;
 }
 
 .customers-section {
@@ -433,9 +433,9 @@ padding-bottom: 120px
 }
 
 .list-customers {
-  display: flex;
-  margin-top: 72px;
-  gap: 24px;
+display: flex;
+margin-top: 72px;
+gap: 24px;
 }
 
 .item-customers {
@@ -443,25 +443,25 @@ padding-bottom: 120px
 }
 
 .icon-customers-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 88px;
-  border: 1px solid #8e8f99;
-  fill: #8e8f99;
-  border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 88px;
+border: 1px solid #8e8f99;
+fill: #8e8f99;
+border-radius: 4px;
 }
 
 .icon-customers-link:hover,
 .icon-customers-link:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+fill: var(--button-color);
+border: 1px solid var(--button-color);
 }
 
 /* Footer */
 
 .footer {
-background: var(--hero-footer-color);
+background: var(--color-cornflower);
 padding-top: 100px;
 padding-bottom: 100px;
 }
@@ -481,6 +481,7 @@ color: var(--logo-color);
 .span-logo {
 color: var(--color-cloud);
 }
+
 
 .container-footer {
   display: flex;
@@ -534,6 +535,12 @@ margin-left: 120px;
 
 /* Portfolio */
 
+.page-header {
+
+border-bottom: 1px solid var(--color-solid);
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .buttons-list {
 letter-spacing: 0.04em;
 display: flex;
@@ -551,6 +558,17 @@ margin-right: 0;
 .hero-section {
 padding-top: 96px;
 padding-bottom: 120px;
+}
+
+.hero-link {
+display: block;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+0px 1px 1px rgba(46, 47, 66, 0.16),
+0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-button {
@@ -583,6 +601,10 @@ border-radius: 4px;
 .portfolio-button:focus {
 background-color: var(--button-color);
 color: var(--color-white);
+border: 1px solid transparent;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 2px 1px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .hero-img {
