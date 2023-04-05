@@ -461,7 +461,7 @@ border: 1px solid var(--button-color);
 /* Footer */
 
 .footer {
-background: var(--hero-footer-color);
+background: var(--main-color);
 padding-top: 100px;
 padding-bottom: 100px;
 }
